@@ -1,5 +1,30 @@
 h1 {color: rgb(72, 255, 0); font: size 18px;}
 h2 {color: #dddddd; font: size 36px;}
+* { font-family: Roboto; font-size: 20px; }
+.card {
+  padding: 5px;
+  border-radius: 10px;
+
+}
+.info {
+  background-color: rgb(127, 177, 137)
+
+}
+.hobby {
+  background-color: rgba(64, 166, 197, 0.5);
+}
+.job-exp {
+  background-color: rgba(187, 109, 45, 0.5);
+}
+.bg-red {
+  background-color: rgba(192, 45, 45, 0.836);
+}
+.bg-green {
+  background-color: rgba(41, 211, 112, 0.829);
+}
+.bg-blue {
+  background-color: rgba(37, 148, 223, 0.699);
+}
 /* word - основные теги
   .word - классы
   #word - id 
@@ -7,4 +32,21 @@ h2 {color: #dddddd; font: size 36px;}
   * - ко всем элементам 
   в классах можно применять к нескольким - пишется через пробел
 */
-
+/* СПОСОБЫ ЗАДАНИЯ ЦВЕТА  
+.color-1 {
+  color : white;
+}
+.color-2 {
+  color : #ddddd; = ddd
+}
+.color-3 {
+  color : #000000; = 000
+}
+.color-4 {
+  color : rgb(255,255,255);
+  opacity : 0.5 прозрачность
+}
+.color-5 {                прозрачность
+  color : rgba(255,255,255,0.5); 
+} 
+*/

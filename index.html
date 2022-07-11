@@ -9,56 +9,87 @@
 
     <title>Resume</title>
     <link rel="stylesheet" href="selectors.css">
+    
 </head>
 <body>
-    <h1>Цветков Григорий</h1>
-    <img src="avatar.png" width="200" alt="html"> 
-    <div class="card info">
-        <p>Изучаю технологии: Python, Django, SQL, HTML, CSS, статистику, 
-                теорию вероятностей и другие для работы Data Scientist, Python Developer or smth else</p>
-            <p><a>В целях : </a>
-                <ol>
-                    <li>Определиться в направлении и получить оффер до 1 февраля 2023 года.</li>
-                    <li>К 2025 году побывать в южных и северных городах - определиться где лучше.</li>
-                    <li>К 2030 году ЗП выше 250к и переехать в выбранный город.</li>
-                </ol>
-            </p>
+    <div class="container">
+        <div class="info">
+            <img src="res/avatar.png" alt="меня нет" class="avatar">
+            <div class="info-text">
+                <h1 class="">Цветков Григорий</h1>
+                <div style="margin-top: 10px;">
+                    <p >На пути к Full-stack Developer</p>
+                    <!-- <img src="res/django.png" alt=""> -->
+                    <img src="res/javascript.png" class="" alt="">
+                    <!-- <img src="res/vue.png" alt=""> -->
+                    <img src="res/react.png" class="" alt="">
+                    <img src="res/html.png" class="" alt="">
+                    <img src="res/css.png" class="" alt="">
+                    <img src="res/python.png" class="" alt="">
+                    <img src="res/github.png" class="" alt="">
+                    <img src="res/docker.png" class="" alt="">
+                    <p  >Спортсмен, амбиверт, филантроп</p>
+                </div>
+                <div class="link">
+                    <a href="https://vk.com/gri_tsv" class="link" target="_blank">Вконтакте</a>
+                    <span>|</span>
+                    <a href="https://t.me/gri_tsv" class="link" target="_blank">Telegram</a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="card hobby">
-        <p>Мои хобби 
-        <ul> 
-        <li>волейбол</li>
-        <li>настольный теннис</li>
-        <li>настольные игры <em>(если объясните правила)</em></li>
-        <li>Valorant</li>
-        <li>Clash of clans</li>
-        </ul></p>
+    <div class="card goal container">
+        <p>В целях : </p>
+        <ol class="list">
+            <li>Определиться в направлении и получить оффер до 1 февраля 2023 года.</li>
+            <li>К 2025 году побывать в южных и северных городах - определиться где лучше.</li>
+            <li>К 2030 году ЗП выше 250к и переехать в выбранный город.</li>
+        </ol>
+    </div>
+    <div class="card hobby container">Мои хобби
+        <ul class="list"> 
+            <li>волейбол</li>
+            <li>настольный теннис</li>
+            <li>настольные игры <em>(если объясните правила)</em></li>
+            <li>Valorant</li>
+            <li>Clash of clans</li>
+        </ul>
     </div>
     
-    <div class="card job-exp">
+    <div class="card job-exp box">
         <h2><strong>Опыт работы</strong></h2>
-        <table>
-            <tr>
-                <td>Компания</td>
-                <td>Должность</td>
-                <td>Время работы</td>
-            </tr>
-            <tr>
-                <td>Планета (теннисный клуб)</td>
-                <td>Администратор</td>
-                <td>июль 2022г</td>
-            </tr>
-
-        </table>
+        <table class="table">
+            <!-- <thead>
+                <tr>
+                    <th>Компания</th>
+                    <th>Должность</th>
+                    <th>Время работы</th>
+                </tr>
+            </thead> -->
+            <tbody>
+                <tr>
+                    <td>Планета</td>
+                    <td>Администратор</td>
+                    <td>июль 2022г</td>
+                </tr>
+                <tr>
+                    <td>Планета</td>
+                    <td>Администратор</td>
+                    <td>июль 2022г</td>
+                </tr>
+                <tr>
+                    <td>Планета</td>
+                    <td>Администратор</td>
+                    <td>июль 2022г</td>
+                </tr>
+            </tbody>
+        <table >
         
     </div>
-    <div class="bg-green">
-        <p></p>
-        <a href="https://vk.com/gri_tsv" target="_blank">Вконтакте</a>
-        <a>|</a>
-        <a href="https://t.me/gri_tsv" target="_blank">Telegram</a>
-    </div>
-    <div>
+    
+    
+    
+        <!-- <div>
         <label for="text">Имя</label>
         <input type="text"  placeholder="Введите имя">
     </div>
@@ -73,8 +104,16 @@
     <div>
         <label for="submit">Отправить</label>
         <input type="submit" width="200" placeholder="Отправить форму">
-    </div>
+    </div> -->
+    <!-- 4 БЛОКА
+        <div class="blocks">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+    </div> -->
 
+    
 
     
 </body>

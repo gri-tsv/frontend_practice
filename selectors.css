@@ -1,17 +1,107 @@
-h1 {color: rgb(72, 255, 0); font: size 18px;}
-h2 {color: #dddddd; font: size 36px;}
-* { font-family: Roboto; font-size: 20px; }
+h1 {
+  color: rgb(72, 255, 0); 
+  font-size: 22px;}
+h2 {
+  color: #dddddd; 
+  font-size: 36px;}
+* { 
+  font-family: Roboto; 
+  font-size: 20px; 
+  margin-left: 5px; 
+  padding: 0;
+  margin: 0;
+  
+}
+ a /*настройка ВСЕХ ссылок*/{ 
+  color: blue; 
+  transition: all 0.2s;
+  text-decoration: none;}
+a:hover { font-size: 1.3rem;
+  color: rgb(218, 50, 21); 
+  text-decoration: underline;}
+a:active{
+  color: blueviolet; }
+.container{
+  margin: auto;
+  max-width: 500;
+  padding: 5px 10px;
+  
+}
+.btn {
+  border: none;
+  padding: 15px 20px;
+  background-color: rgb(44, 94, 202); 
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: inherit;
+  font-size: 18px;
+
+}
+.btn:hover {
+  color: darkorange;
+  opacity: 0.8;
+}
 .card {
   padding: 5px;
   border-radius: 10px;
-
+  margin-top: 5px;
 }
+/* @media (max-width: 1200px) { .avatar
+{display: block; 
+text-align: center;}} */
 .info {
-  background-color: rgb(127, 177, 137)
-
+  /* background-color: rgb(127, 177, 137); */
+  display: flex;
+  margin: 0;
+  padding: 5px 5px;
+  
+  
+}
+.info-text {
+  padding: 5px 15px 10px 50px;
+  margin-top: 120px;
 }
 .hobby {
   background-color: rgba(64, 166, 197, 0.5);
+
+}
+.goal {
+  background-color: rgba(150, 207, 42, 0.5);
+}
+.avatar {
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  margin-top: 10px;
+  margin-left: 10px;
+  max-width: 300px;
+}
+.link {
+  margin-top: 30px;
+}
+.list {
+  list-style-type: circle;
+  padding-left: 50px;
+  padding: auto;
+  
+}
+.table {
+  width: 100%;
+  border: black solid 1px;
+}
+.table td{
+  padding-bottom: 10px;
+  
+}
+.table tr td {
+  
+  padding-left: 5px;
+  padding-top: 5px;
+
+}
+.table td:nth-child(2), td:nth-child(3){
+  color: rgb(34, 50, 194);
+}
+.list li {
+  padding: 3px;
 }
 .job-exp {
   background-color: rgba(187, 109, 45, 0.5);
@@ -25,7 +115,29 @@ h2 {color: #dddddd; font: size 36px;}
 .bg-blue {
   background-color: rgba(37, 148, 223, 0.699);
 }
-/* word - основные теги
+.box {
+  margin: 10px; 
+  border: 2px solid darkmagenta;
+  padding: 5px;
+}
+.blocks {
+  width: 100%;
+  margin-top: 10px;
+}
+.blocks .block{
+  width: 25%;
+  float: left;
+  background-color: rgb(191, 30, 206);
+  padding: 0px;
+  margin: 0px;
+
+  height: 30px;
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+
+}
+/* HTML main tags 
+  word - основные теги
   .word - классы
   #word - id 
   могут быть составные - word, #word, .word {}
@@ -49,4 +161,15 @@ h2 {color: #dddddd; font: size 36px;}
 .color-5 {                прозрачность
   color : rgba(255,255,255,0.5); 
 } 
+*/
+/* ОТСТУПЫ (с margin также)
+  padding-top: 10px; 
+  padding-right: 20px
+  padding-bottom: 30px; 
+  padding-left: 40px; 
+  =
+  padding: 10px 20px 30px 40px; 
+  /
+  padding: 10px 20px = padding-top: 10px; padding-bottom: 10px; padding-right: 20px padding-left: 20px; 
+  
 */
